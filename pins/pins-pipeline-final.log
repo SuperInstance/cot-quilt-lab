@@ -1,0 +1,7 @@
+PASS P1 full-run-on-stubs — z_out has all 7 keys; 5 top-level receipts, 13 executed stages, all ok=True
+PASS P2 determinism-receipt-hash — receipt_hash stable across identical runs: 877af4cd81183439
+PASS P3 burn-retry-guard — 1 sample receipt(s) carry retried_bigger=True; burn call 16000 -> retry 48000 tokens
+PASS P4 empty-gaps-degradation — judge gaps empty -> refine skipped=True, graph_v2 == merged (JSON compare)
+PASS P5 cell-surface — requires=['sample_plan'], produces=['graph_v2', 'graphs', 'judge', 'lenses', 'merged', 'sample_plan', 'samples', 'seeds', 'splits']; z_out carries no underscore keys
+pins: 5/5 passed
+RESULT: PASS

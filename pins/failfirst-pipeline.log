@@ -1,0 +1,57 @@
+Traceback (most recent call last):
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 172, in main
+    detail = fn()
+             ^^^^
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 58, in pin_p1
+    _need()
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 35, in _need
+    assert IMPORT_ERROR is None, f'pipelines not importable: {IMPORT_ERROR!r}'
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+Traceback (most recent call last):
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 172, in main
+    detail = fn()
+             ^^^^
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 96, in pin_p2
+    _need()
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 35, in _need
+    assert IMPORT_ERROR is None, f'pipelines not importable: {IMPORT_ERROR!r}'
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+Traceback (most recent call last):
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 172, in main
+    detail = fn()
+             ^^^^
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 108, in pin_p3
+    _need()
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 35, in _need
+    assert IMPORT_ERROR is None, f'pipelines not importable: {IMPORT_ERROR!r}'
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+Traceback (most recent call last):
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 172, in main
+    detail = fn()
+             ^^^^
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 125, in pin_p4
+    _need()
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 35, in _need
+    assert IMPORT_ERROR is None, f'pipelines not importable: {IMPORT_ERROR!r}'
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+Traceback (most recent call last):
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 172, in main
+    detail = fn()
+             ^^^^
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 138, in pin_p5
+    _need()
+  File "/tmp/zlanes2/laneC/wt/tests/pins_pipeline.py", line 35, in _need
+    assert IMPORT_ERROR is None, f'pipelines not importable: {IMPORT_ERROR!r}'
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+FAIL P1 full-run-on-stubs — AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+FAIL P2 determinism-receipt-hash — AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+FAIL P3 burn-retry-guard — AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+FAIL P4 empty-gaps-degradation — AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+FAIL P5 cell-surface — AssertionError: pipelines not importable: ModuleNotFoundError("No module named 'pipelines'")
+pins: 0/5 passed
+RESULT: FAIL
