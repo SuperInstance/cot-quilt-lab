@@ -1,0 +1,9 @@
+# cmd: python3 tests/pins_engine.py (repo root, core/ absent — fail-first)
+# utc: 2026-10-01T20:47:03Z
+pins_engine on python 3.12.3
+Traceback (most recent call last):
+  File "/tmp/zlanes2/laneA/wt/tests/pins_engine.py", line 47, in <module>
+    from core import providers  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'core'
+exit_code=1
